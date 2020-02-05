@@ -12,6 +12,7 @@ body{
     background-position: right;
     background-image: url("../images/banner/banner_2_2.png");
     height:650px;
+    max-width: 100%;
 }
 /* END Banner */
 
@@ -24,20 +25,29 @@ a{
     color: gray;
 }
 .header-position{
-    padding:1% 0 1% 0;
+    padding:2% 0 2% 0;
+    
 }
 .header-content{
     margin-top: 8%;
+    padding: 0%;
 }
 h1{
     font-size: 60px;
     color: white;
 }
 p .btn-custom{
-    margin-top: 2%;
+    margin-top: 1%;
     padding:2%;
     width: 19%;
     font-weight: bold;
+    border-radius: 40px;
+}
+.line-position{
+    position: absolute; 
+    border-color: gray;
+    margin-top: 0.7%;
+    width: 100%;
 }
 /* END header */
 
@@ -53,7 +63,6 @@ p .btn-custom{
     display: none;
     position: absolute;
     background-color:white;
-    
     width: max-content;
     margin-top: 4%;
   }
@@ -69,6 +78,10 @@ p .btn-custom{
     display: block;
     
   }
+  .nav-position li{
+      margin-left: 3%;
+  }
+
   ul li a{
     color: white;
     font-weight: bold;
@@ -79,18 +92,103 @@ p .btn-custom{
       color: white;
   }
   .nav-position{
-      position: absolute;
-      margin-left: 18%;
-      width:100%;
-      padding-top: 0.8%;
+      margin-left: 56%;
+      width:200%;
+      padding-top: 3%;
+      float:left;
   }
   li{
     display: inline-block;  
     margin-left: 2%;
   }
-  .btn-custom{
+  .btn-custom-get-quote{
       border-radius: 40px;
-      padding: 1%;
-      width:15%
+      padding: 10%;
+      width: 130%;
+      font-weight: bold;
+  }
+  .btn-position{
+      position: absolute;
+      margin-left: 56%;      
   }
 /* END Navbar */
+
+
+/* Start Content */
+.content{
+    text-align: center;
+}
+.content p{
+    margin-top: 8%;
+    font-size: 45px;
+    margin-bottom: 3%;
+}
+.float-left{
+    float: left;
+}
+.card-position{
+    width: 31.33%;
+    margin-top: 3%;
+}
+.card-margin{
+    margin-left: 3%;
+}
+.card-body p{
+    font-size: 15px;
+}
+.card-text-padding{
+    padding:0 3.5% 0 3.5%
+}
+.aboutus-position{
+    margin-top: 50%;
+}
+.aboutus-content{
+    padding: 10% 0 12% 0;
+    padding-right: 1.5%;
+    color: gray;
+}
+.aboutus-content h2{
+    font-size: 45px;
+    color: black;    
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 3%;
+}
+.aboutus-image{
+    padding-left: 1.5%;
+}
+.btn-custom-aboutus{
+    margin-top: 2%;
+    border-radius: 40px;
+    padding: 2%;
+    width: 25%;
+    font-weight: bold;
+}
+.report{
+    margin: 65% 0 5% 0;
+}
+.report-background{
+    clear: left;
+    background-image: url("../images/case/4.png");
+    background-size: cover;
+    height: 400px;
+    max-width: 100%;
+    background-position: 30% 25%;
+    background-repeat: no-repeat;
+}
+.card-custom{
+    margin-top: 5%;
+    border-radius: 3%;    
+}
+.btn-more-cases{
+    margin: 5% 0 3% 42%;
+    width: 17%;
+    padding: 1.5%;
+    border-radius: 40px;
+    border-color: rgb(66, 96, 230);
+    color: rgb(66, 96, 230);
+    background-color: white;
+}
+/* End Content */
