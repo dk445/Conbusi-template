@@ -1,3 +1,4 @@
+
 /* Fonts */
 body{
     font-family: 'Poppins' , sans-serif;
@@ -8,6 +9,88 @@ body{
 
 /* Banner */
 .banner{    
-    background-image: url("../images/banner/banner_2.png");
+    background-position: right;
+    background-image: url("../images/banner/banner_2_2.png");
+    height:650px;
 }
 /* END Banner */
+
+/* Header */
+.msg-custom{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+a{
+    color: gray;
+}
+.header-position{
+    padding:1% 0 1% 0;
+}
+.header-content{
+    margin-top: 8%;
+}
+h1{
+    font-size: 60px;
+    color: white;
+}
+p .btn-custom{
+    margin-top: 2%;
+    padding:2%;
+    width: 19%;
+    font-weight: bold;
+}
+/* END header */
+
+/* Navbar */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    
+    width: max-content;
+    margin-top: 4%;
+  }
+  .dropdown-content a{
+      color: black;
+  }
+
+  .dropdown-content li{
+      padding:8%;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
+  ul li a{
+    color: white;
+    font-weight: bold;
+  }
+  
+  ul li a:hover{
+      text-decoration: none;
+      color: white;
+  }
+  .nav-position{
+      position: absolute;
+      margin-left: 18%;
+      width:100%;
+      padding-top: 0.8%;
+  }
+  li{
+    display: inline-block;  
+    margin-left: 2%;
+  }
+  .btn-custom{
+      border-radius: 40px;
+      padding: 1%;
+      width:15%
+  }
+/* END Navbar */
