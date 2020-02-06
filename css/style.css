@@ -2,6 +2,7 @@
 /* Fonts */
 body{
     font-family: 'Poppins' , sans-serif;
+    overflow-x: hidden;
 }
 /* END Fonts */
 
@@ -145,6 +146,7 @@ p .btn-custom{
     padding: 10% 0 12% 0;
     padding-right: 1.5%;
     color: gray;
+    margin-bottom: 5%;
 }
 .aboutus-content h2{
     font-size: 45px;
@@ -157,6 +159,7 @@ img{
 }
 .aboutus-image{
     padding-left: 1.5%;
+    margin-bottom: 5%;
 }
 .btn-custom-aboutus{
     margin-top: 2%;
@@ -166,7 +169,7 @@ img{
     font-weight: bold;
 }
 .report{
-    margin: 65% 0 5% 0;
+    margin: 0% 0 5% 0;
 }
 .report-background{
     clear: left;
@@ -192,7 +195,6 @@ img{
 }
 .svg-bg-color{
     background-color: rgb(12, 175, 240);
-    
     border-radius: 100%;
 }
 .icon{
@@ -202,5 +204,72 @@ img{
     margin:30%;
     border-radius: 0%;
 }
-
+.report-col-position{
+    padding: 8%;
+    text-align: center;
+}
+.report-col-position h2{
+    margin: 5% 0 0 2%;
+    color: white;
+    font-size: 45px;
+}
+.report-col-position h4{
+    margin: 3% 0 0 2%;
+    color:white;
+    font-size: 15px;
+}
 /* End Content */
+
+/* Start Testmonial */
+.testmonial-banner{
+    background-image: url(../images/banner/testmonial.png);
+    height: 500px;
+    margin: 3% 0 3% 0;
+}
+.carousel-position{
+    padding: 4%;
+}
+.carousel-custom{
+    background:none;
+}
+.carousel-item img{
+    margin:0 0 5% 47%;
+}
+.quote-text{
+    padding: 0 20% 0 20%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.quote-owner img{
+    padding: 5% 0% 2% 0%;
+    margin:0 50% 0 46%;
+}
+.quote-owner p{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+.quote-owner h4{
+    font-size: 14px;
+}
+/* End Testmonial */
+
+/* Start get-free-quotation section */
+.quotation-position{
+    margin:18% 0 0% 0;
+}
+.form-position{
+    margin:10% 10% 0 0;
+}
+input{
+    margin: 8% 0 8% 0;
+}
+.btn-custom-send{
+    margin-top: 8%;
+    border-radius: 40px;
+    width: 100%;
+    padding: 3%;
+    font-weight: bold;
+}
+/* End get-free-quotation section */
