@@ -4,6 +4,10 @@ body{
     font-family: 'Poppins' , sans-serif;
     overflow-x: hidden;
 }
+.btn-gradient{
+    border-radius: 40px;
+    background-image: linear-gradient( rgb(10, 133, 235),rgb(30, 133, 235),rgb(50, 133, 235),rgb(107, 163, 253) );
+}
 /* END Fonts */
 
 
@@ -11,7 +15,9 @@ body{
 /* Banner */
 .banner{    
     background-position: right;
-    background-image: url("../images/banner/banner_2_2.png");
+    background-image: url("../images/banner/banner_2.png");
+    background-blend-mode: multiply;
+    background-color:rgb(120, 128, 146);
     height:650px;
     max-width: 100%;
 }
@@ -27,7 +33,6 @@ a{
 }
 .header-position{
     padding:2% 0 2% 0;  
-    /* position: fixed;     */
 }
 .header-content{
     margin-top: 8%;
@@ -37,12 +42,11 @@ h1{
     font-size: 60px;
     color: white;
 }
-p .btn-custom{
+p .btn-our-service-custom{
     margin-top: 1%;
-    padding:2%;
+    padding:1.5% 0 1.5% 0;
     width: 19%;
     font-weight: bold;
-    border-radius: 40px;
 }
 .line-position{
     position: relative; 
@@ -63,10 +67,13 @@ p .btn-custom{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color:white;
+    background-image: linear-gradient( rgba(149, 154, 161,0.5),rgba(177, 182, 190,0.5),rgba(210, 216, 226,0.5));
+    border-radius: 10%;
     width: max-content;
-    margin-top: 4%;
+    margin-top: 8%;
+    color: black;
   }
+
   .dropdown-content a{
       color: black;
   }
@@ -76,20 +83,21 @@ p .btn-custom{
   }
 
   .dropdown:hover .dropdown-content {
-    display: block;    
+    display: block;        
   }
+  
   .nav-position li{
       margin-left: 3%;
   }
 
-  ul li a{
+  .header-position a{
     color: white;
     font-weight: bold;
   }
   
-  ul li a:hover{
+  .header-position a:hover{
       text-decoration: none;
-      color: white;
+      color:black;
   }
   .nav-position{
       margin-left: 56%;
@@ -107,6 +115,7 @@ p .btn-custom{
       width: 130%;
       font-weight: bold;
   }
+
   .btn-position{
       position: absolute;
       margin-left: 56%;      
@@ -177,6 +186,8 @@ img{
     background-size: cover;
     height: 400px;
     max-width: 100%;
+    background-blend-mode: multiply;
+    background-color: rgb(88, 117, 126);
     background-position: 30% 25%;
     background-repeat: no-repeat;
 }
@@ -193,8 +204,24 @@ img{
     color: rgb(66, 96, 230);
     background-color: white;
 }
-.svg-bg-color{
-    background-color: rgb(12, 175, 240);
+.svg-blue-gradient{
+    border-radius: 40px;
+    background-image: linear-gradient( rgb(27, 123, 233),rgb(45, 104, 231),rgb(104, 146, 236),rgb(142, 176, 248) );
+    border-radius: 100%;
+}
+.svg-green-gradient{
+    border-radius: 40px;
+    background-image: linear-gradient( rgb(44, 224, 119),rgb(64, 224, 131),rgb(103, 226, 154));
+    border-radius: 100%;
+}
+.svg-orange-gradient{
+    border-radius: 40px;
+    background-image: linear-gradient( rgb(248, 130, 52),rgb(250, 140, 66),rgb(252, 164, 105));
+    border-radius: 100%;
+}
+.svg-purple-gradient{
+    border-radius: 40px;
+    background-image: linear-gradient( rgb(108, 32, 250),rgb(136, 49, 250),rgb(187, 61, 245));
     border-radius: 100%;
 }
 .icon{
@@ -222,9 +249,11 @@ img{
 
 /* Start Testmonial */
 .testmonial-banner{
-    background-image: url(../images/banner/testmonial.png);
+    background-image: url(../images/banner/testmonial_2.png);
     height: 500px;
     margin: 3% 0 3% 0;
+    background-blend-mode: multiply;
+    background-color: rgb(63, 89, 100);
 }
 .carousel-position{
     padding: 4%;
@@ -259,17 +288,120 @@ img{
 .quotation-position{
     margin:18% 0 0% 0;
 }
-.form-position{
-    margin:10% 10% 0 0;
+.form-position , .form-position form{
+    margin: 0 10% 0 0 ;
+    
 }
-input{
+.form-title{
+    font-size: 45px;
+    padding-left: 2%;
+}
+.form-input{
     margin: 8% 0 8% 0;
+    border:none;
+    border-bottom: 1px solid rgb(194, 189, 189);
+    background: transparent;
 }
 .btn-custom-send{
-    margin-top: 8%;
+    margin-top: 2%;
     border-radius: 40px;
     width: 100%;
     padding: 3%;
     font-weight: bold;
 }
+.md-form textarea{
+    padding-top: 15%;
+    margin-top: 8%;
+}
 /* End get-free-quotation section */
+
+/* Start Footer */
+.footer-position{
+    margin-top: 50%;
+}
+.footer-banner{
+    background-image: url(../images/banner/info_banner.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-color: rgb(76, 103, 121);
+    background-size: cover;
+    width: 100%;
+}
+.footer-banner-content{
+    text-align: center;
+    color: white;
+    padding-top: 10%;
+}
+.footer-banner-text-title{
+    font-size: 45px;
+}
+.footer-banner-text-content{
+    margin:1% 0 2% 0;
+    font-size:15px;
+}
+.btn-custom-call{
+    border-radius: 40px;
+    padding:1% 2% 1% 2%;
+    font-weight: bold;
+}
+.footer-content{
+    padding:8% 0 8% 0;
+}
+.footer-content-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-links{
+    margin-top: 18%;
+}
+.footer-links ul{
+    padding:0;
+}
+.footer-links li{
+    margin: 0 0 5% 0;
+}
+.footer-links p{
+    color: grey;
+}
+.form-subscribe-border{
+    border-radius: 40px;
+    border: 1px solid grey;
+    padding: 2%;
+    width: 150%;
+}
+.form-subscribe-border input{
+    border: none;
+    background: transparent;
+}
+.btn-custom-subscribe{
+    border-radius: 40px;
+}
+.subscribe-text{
+    width:150%;
+    padding-top: 10%;
+}
+.footer-social-links span{
+    margin:20% 5% 0 0;
+    width: 17%;
+    padding:5% 12% 4% 6%;
+    border-radius: 50%;
+    border:1px solid gray;
+    display: inline-block;
+}
+
+/* End Footer */
+
+
+/* Start-copyright */
+.copyright-line{
+    margin-top: 20%;
+    text-align: center;
+}
+.copyright-content{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 2%;
+}
+/* End-copyright */
